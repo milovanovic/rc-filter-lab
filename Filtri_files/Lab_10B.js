@@ -11,7 +11,7 @@ $( document ).ready(function() {
             this.isMoz = false;
             this.audioChrome;
             this.audioMoz;
-            this.dir = "/c4x/MITx/6.002x/asset/js_sound_labs_sounds_"; // HACK: Static-replace not being run in js source
+            this.dir = "asset/"; // HACK: Static-replace not being run in js source
             this.inSignal;
             this.outSignals = [];
             this.numberChannels = 1;
